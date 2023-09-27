@@ -23,4 +23,3 @@ for fr in range(50, 300, 50):
     plt.xlabel('Частота в герцах [Hz]')
     plt.ylabel('Модуль спектра')
     plt.grid()
-    plt.savefig(f'Freq {fr} [Hz]')
