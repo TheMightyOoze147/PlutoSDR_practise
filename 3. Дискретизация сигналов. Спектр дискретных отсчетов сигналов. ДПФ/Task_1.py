@@ -8,7 +8,7 @@ plt.figure()
 Ts4 = 1e-3 #Задание частоты дискретизации 1000 отсчётов/сек
 fs4 = 1/Ts4
 an_freq = ((0.4 * np.pi * fs4)/(2 * np.pi)) #Рассчёт аналоговой частоты
-t = np.arange(-10, 20)*Ts4
+t = np.arange(-5, 11)*Ts4
 s =  np.cos(100*t*(2*np.pi))
 plt.subplot(3, 1, 1)
 plt.plot(t, s)
