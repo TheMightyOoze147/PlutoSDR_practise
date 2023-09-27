@@ -13,6 +13,7 @@
 <details>
   <img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/third_party/Spectre_Task_1/Freq%20200.0%20%5BHz%5D.png" name="200hz">
 </details>
+
 ## Вторая задача
 <details>
   <img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/third_party/Spectre_Task_2/Freq%2050%20%5BHz%5D.png" name="50hz">
