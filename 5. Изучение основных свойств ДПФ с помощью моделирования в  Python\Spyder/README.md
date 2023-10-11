@@ -23,12 +23,33 @@
 # Полученные графики
 <details>
   <img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/5.%20%D0%98%D0%B7%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D1%85%20%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%20%D0%94%D0%9F%D0%A4%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B2%20%20Python%5CSpyder/task1_thirdparty/%D0%94%D0%9F%D0%A4.jpg" title="ДПФ">
+
+ДПФ
+
   <img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/5.%20%D0%98%D0%B7%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D1%85%20%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%20%D0%94%D0%9F%D0%A4%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B2%20%20Python%5CSpyder/task1_thirdparty/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%20%D0%94%D0%9F%D0%A4.jpg" title="Модуль ДПФ">
+
+  Модуль ДПФ
+
   <img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/5.%20%D0%98%D0%B7%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D1%85%20%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%20%D0%94%D0%9F%D0%A4%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B2%20%20Python%5CSpyder/task1_thirdparty/%D0%9E%D0%94%D0%9F%D0%A4%20task%206.jpg" title="ОДПФ">
+
+  ОДПФ
+
   <img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/5.%20%D0%98%D0%B7%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D1%85%20%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%20%D0%94%D0%9F%D0%A4%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B2%20%20Python%5CSpyder/task1_thirdparty/%D0%9E%D0%94%D0%9F%D0%A4%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0.jpg" title="ОДПФ для комплексного числа">
+
+  ОДПФ для комплексного числа
+
   <img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/5.%20%D0%98%D0%B7%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D1%85%20%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%20%D0%94%D0%9F%D0%A4%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B2%20%20Python%5CSpyder/task1_thirdparty/%D0%9E%D0%94%D0%9F%D0%A4%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0_2.jpg" title="ОДПФ и ОДПФ для комплексного числа">
+
+  ОДПФ и ОДПФ для комплексного числа
+
   <img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/5.%20%D0%98%D0%B7%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D1%85%20%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%20%D0%94%D0%9F%D0%A4%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B2%20%20Python%5CSpyder/task1_thirdparty/%D0%9E%D0%94%D0%9F%D0%A4%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0_2.jpg" title="ОДПФ для суммы сигналов">
+
+  ОДПФ для суммы сигналов
+
   <img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/5.%20%D0%98%D0%B7%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D1%85%20%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%20%D0%94%D0%9F%D0%A4%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B2%20%20Python%5CSpyder/task1_thirdparty/%D0%A1%D1%83%D0%BC%D0%BC%D0%B0%20%D1%81%D0%B8%D0%B3%D0%BD%D0%B0%D0%BB%D0%BE%D0%B2.jpg" title="Спектрограмма суммы сигналов">
+
+Спектрограмма суммы сигналов
+
 </details>
 
 ## Task 2
@@ -38,7 +59,7 @@
 # Полученные графики
 
 <details>
-    <img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/5.%20%D0%98%D0%B7%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D1%85%20%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%20%D0%94%D0%9F%D0%A4%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B2%20%20Python%5CSpyder/task2_thirdparty/S1.png" alt = "S1" title="S1">
+    <img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/5.%20%D0%98%D0%B7%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D1%85%20%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%20%D0%94%D0%9F%D0%A4%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B2%20%20Python%5CSpyder/task2_thirdparty/S1.png" title="S1">
     <img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/5.%20%D0%98%D0%B7%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D1%85%20%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%20%D0%94%D0%9F%D0%A4%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B2%20%20Python%5CSpyder/task2_thirdparty/S2.png" title="S2">
     <img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/5.%20%D0%98%D0%B7%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D1%85%20%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%20%D0%94%D0%9F%D0%A4%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B2%20%20Python%5CSpyder/task2_thirdparty/S3.png" title="S3">
     <img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/5.%20%D0%98%D0%B7%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D1%85%20%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%20%D0%94%D0%9F%D0%A4%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B2%20%20Python%5CSpyder/task2_thirdparty/S4.png" title="S4">
