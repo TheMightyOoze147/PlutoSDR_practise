@@ -7,5 +7,6 @@
 - [4. Формирование сигналов, визуализация в Python.](https://www.notion.so/4-Python-5f78caed6b4c4d919115c5489dd4ffae?pvs=21)
 - [5. Дискретизация сигналов. Спектр дискретных отсчетов сигналов. ДПФ](https://humble-ballcap-e09.notion.site/5-5f9904dc31f747379b47610a5625be65)
 - [6. Изучение основных параметров библиотеки PyAdi для Adalm Pluto SDR](https://humble-ballcap-e09.notion.site/6-PyAdi-Adalm-Pluto-SDR-7dabe605bb7243e3b8cb02ff208ca2bf)
-
+- [7. Вычисление ДПФ, свойства ДПФ](https://humble-ballcap-e09.notion.site/7-0ee2669e5e8144f39ed11d8455609fc2?pvs=25)
+- [8. Изучение основных свойств ДПФ с помощью моделирования в  Python/Spyder](https://humble-ballcap-e09.notion.site/8-Python-Spyder-c8f1d4266bd0468caadda311c2e6f812)
 ## Номера лекций и номера практик будут не совпадать, поскольку тем лекций больше, чем заданий. Лучше всего ориентироваться по названию лекции.
