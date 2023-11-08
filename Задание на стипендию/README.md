@@ -15,6 +15,7 @@
 Задание 2.
 Часть 1.
 Задан сигнал с частотой fc = 50 [Hz]
+
 ```python
 fc = 50
 w = 2 * np.pi * fc
@@ -22,8 +23,10 @@ t = np.arange(0, 1, 0.001)
 A = 2
 x_t = A * np.cos(w * t)
 ```
+
 <img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%81%D1%82%D0%B8%D0%BF%D0%B5%D0%BD%D0%B4%D0%B8%D1%8E/pics/Figure%202023-11-08%20232944%20(1).png" width="512"/>
 И продискретизирован с частотой дискретизации fs = 200 [Hz] для трёх наборов отсчётов размерами 64, 128 и 256
+
 ```python
 fs = 200
 Ts = 1/fs
@@ -34,15 +37,19 @@ x_d64 = A * np.cos(w * n64 * Ts)
 x_d128 = A * np.cos(w * n128 * Ts)
 x_d256 = A * np.cos(w * n256 * Ts)
 ```
+
 <img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%81%D1%82%D0%B8%D0%BF%D0%B5%D0%BD%D0%B4%D0%B8%D1%8E/pics/Figure%202023-11-08%20232944%20(2).png" width="512"/>
 
 Так же были найдены аналоговые частоты, которые соотвествтуют нормированным частотам Ω = 0.1π и Ω = 0.3π
+
 ```python
 Calculated_fs_01Pi = (0.1 * np.pi * fs)/(2 * np.pi)
 Calculated_fs_03Pi = (0.3 * np.pi * fs)/(2 * np.pi)
 ```
+
 Это частоты fc = 10.0 и fc = 29.9 соответственно
 Наконец, были найдены спектры для данных сигналов с разным количеством отсчётов
+
 ```python
 spectre64 = abs(np.fft.fft(x_d64))
 spectre128 = abs(np.fft.fft(x_d128))
@@ -51,17 +58,21 @@ fspec64 = np.arange(-len(spectre64)/2, len(spectre64)/2, 1) * fs/64
 fspec128 = np.arange(-len(spectre128)/2, len(spectre128)/2, 1) * fs/128
 fspec256 = np.arange(-len(spectre256)/2, len(spectre256)/2, 1) * fs/256
 ```
+
 <img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%81%D1%82%D0%B8%D0%BF%D0%B5%D0%BD%D0%B4%D0%B8%D1%8E/pics/Figure%202023-11-08%20232944%20(0).png" width="512"/>
 
 Часть 2.
 
 Был задан сигнал, состоящий из двух гармонических колебаний с частотами f1 = 5 [Hz] и f2 = 20 [Hz]
+
 ```python
 t = np.arange(0, 1, 1/fs)
 signal_sum = np.cos(2 * np.pi * 5 * t) + np.cos(2 * np.pi * 20 * t)
 ```
+
 <img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%81%D1%82%D0%B8%D0%BF%D0%B5%D0%BD%D0%B4%D0%B8%D1%8E/pics/Figure%202023-11-08%20234704.png" width="512"/>
 И фильтр
+
 ```python
 fc = 5/fs #Нормированная частота среза
 N = 50 #Длина фильтра
@@ -70,6 +81,7 @@ h = np.sinc(2 * fc * (n - (N - 1) / 2))  #Импульсная характер�
 ```
 
 После чего рассчитаны спектры исходного сигнала и отфильтрованного
+
 ```python
 sum_spectre = np.fft.fft(signal_sum)
 freqs_sum = np.fft.fftfreq(len(sum_spectre), 1/fs)
