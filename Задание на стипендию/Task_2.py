@@ -1,14 +1,14 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import signal
-#Построение аналогового сигнала с частотой fc = 250 [Hz]
+#Построение аналогового сигнала с частотой fc = 50 [Hz]
 fc = 50
 w = 2 * np.pi * fc
 t = np.arange(0, 1, 0.001)
 A = 2
 x_t = A * np.cos(w * t)
 
-#Дискретизация сигнала с частотой дискретизации fs = 1000 [Hz] 
+#Дискретизация сигнала с частотой дискретизации fs = 200 [Hz] 
 #и наборами отсчётов n = 64, 128, 256
 fs = 200
 Ts = 1/fs
@@ -34,7 +34,7 @@ fspec64 = np.arange(-len(spectre64)/2, len(spectre64)/2, 1) * fs/64
 fspec128 = np.arange(-len(spectre128)/2, len(spectre128)/2, 1) * fs/128
 fspec256 = np.arange(-len(spectre256)/2, len(spectre256)/2, 1) * fs/256
 
-plt.figure(0)
+plt.figure(0, figsize=(12, 6))
 plt.subplot(1, 3, 1)
 plt.stem(fspec64, spectre64)
 plt.title('Колчиество отсчётов n = 64')
@@ -50,11 +50,11 @@ plt.stem(fspec256, spectre256)
 
 print(Calculated_fs_01Pi, Calculated_fs_03Pi)
 #Вывод графиков на экран
-plt.figure(1)
+plt.figure(1, figsize=(12, 6))
 plt.xlabel('Время [c]')
 plt.title('Исходный сигнал\nx(t) = A * cos(w * t)')
 plt.plot(t, x_t)
-fig = plt.figure(2, figsize=(12, 5))
+fig = plt.figure(2, figsize=(12, 6))
 fig.suptitle('Дискретизированный сигнал\nx(n) = A * cos(w * n * Ts)')
 plt.subplot(1, 3, 1)
 plt.xlabel('Количество отсчётов')
@@ -69,10 +69,29 @@ plt.xlabel('Количество отсчётов')
 plt.title('Колчиество отсчётов n = 256')
 plt.stem(n256, x_d256)
 
-#TODO 
-'''
-Сформируйте сигнал, состоящий из суммы двух гармонических колебаний (косинусов) разных частот. Выберите частоту дискретизации для данного сигнала. Изобразите спектр ДПФ полученных отсчетов. 
-Рассчитайте отсчеты цифрового фильтра ФНЧ с частотой среза для подавления сигнала с большей частотой. Импульсная характеристика ФНЧ вычисляется по  выражению h(n) = sin(omega_c * n)/(Pi * n)  omega_c – нормированная частота среза.
-Примените полученную импульсную характеристику фильтра к входному сигналу.
-Изобразите спектр ДПФ сигнала после фильтрации 
-'''
+fs = 256
+t = np.arange(0, 1, 1/fs)
+signal_sum = np.cos(2 * np.pi * 5 * t) + np.cos(2 * np.pi * 20 * t)
+plt.figure(4)
+plt.plot(t, signal_sum)
+fc = 5/fs #Нормированная частота среза
+N = 50 #Длина фильтра
+n = np.arange(0, N)
+h = np.sinc(2 * fc * (n - (N - 1) / 2))  #Импульсная характеристика ФНЧ
+sum_spectre = np.fft.fft(signal_sum)
+freqs_sum = np.fft.fftfreq(len(sum_spectre), 1/fs)
+
+filtered_signal = np.convolve(signal_sum, h, mode='same')
+filtered_spectre = np.fft.fft(filtered_signal)
+freqs_filt = np.fft.fftfreq(len(filtered_spectre), 1/fs)
+
+plt.figure(3)
+plt.subplot(1, 2, 1)
+plt.title('Исходный сигнал')
+plt.stem(freqs_sum, abs(sum_spectre))
+plt.xlim(-25, 25)
+
+plt.subplot(1, 2, 2)
+plt.title('Отфильтрованный сигнал')
+plt.stem(freqs_filt, abs(filtered_spectre))
+plt.xlim(-25, 25)
