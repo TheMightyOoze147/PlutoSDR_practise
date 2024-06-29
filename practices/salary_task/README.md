@@ -24,7 +24,8 @@ A = 2
 x_t = A * np.cos(w * t)
 ```
 
-<img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%81%D1%82%D0%B8%D0%BF%D0%B5%D0%BD%D0%B4%D0%B8%D1%8E/pics/Figure%202023-11-08%20232944%20(1).png" width="512"/>
+![s](pics/Figure%202023-11-08%20232944%20(0).png)
+
 И продискретизирован с частотой дискретизации fs = 200 [Hz] для трёх наборов отсчётов размерами 64, 128 и 256
 
 ```python
@@ -38,7 +39,7 @@ x_d128 = A * np.cos(w * n128 * Ts)
 x_d256 = A * np.cos(w * n256 * Ts)
 ```
 
-<img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%81%D1%82%D0%B8%D0%BF%D0%B5%D0%BD%D0%B4%D0%B8%D1%8E/pics/Figure%202023-11-08%20232944%20(2).png" width="512"/>
+![s](pics/Figure%202023-11-08%20232944%20(1).png)
 
 Так же были найдены аналоговые частоты, которые соотвествтуют нормированным частотам Ω = 0.1π и Ω = 0.3π
 
@@ -58,7 +59,7 @@ fspec128 = np.arange(-len(spectre128)/2, len(spectre128)/2, 1) * fs/128
 fspec256 = np.arange(-len(spectre256)/2, len(spectre256)/2, 1) * fs/256
 ```
 
-<img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%81%D1%82%D0%B8%D0%BF%D0%B5%D0%BD%D0%B4%D0%B8%D1%8E/pics/Figure%202023-11-08%20232944%20(0).png" width="512"/>
+![s](pics/Figure%202023-11-08%20232944%20(2).png)
 
 Часть 2.
 
@@ -69,7 +70,8 @@ t = np.arange(0, 1, 1/fs)
 signal_sum = np.cos(2 * np.pi * 5 * t) + np.cos(2 * np.pi * 20 * t)
 ```
 
-<img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%81%D1%82%D0%B8%D0%BF%D0%B5%D0%BD%D0%B4%D0%B8%D1%8E/pics/Figure%202023-11-08%20234704.png" width="512"/>
+![s](pics/Figure%202023-11-08%20232944%20(3).png)
+
 И фильтр
 
 ```python
@@ -90,4 +92,5 @@ filtered_spectre = np.fft.fft(filtered_signal)
 freqs_filt = np.fft.fftfreq(len(filtered_spectre), 1/fs)
 ```
 
-<img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%81%D1%82%D0%B8%D0%BF%D0%B5%D0%BD%D0%B4%D0%B8%D1%8E/pics/Figure%202023-11-08%20232944%20(3).png" width="512"/>
+![s](pics/Figure%202023-11-08%20234704.png)
+
