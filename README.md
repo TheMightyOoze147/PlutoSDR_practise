@@ -1,9 +1,6 @@
 # Курс по SDR
 ###### Данилюк Андрей, ИА-131
 
-Практики выполнены на следующих языках:
-[![Languages](https://skillicons.dev/icons?i=python,matlab,cpp)](https://skillicons.dev)
-
 # Практики (кликабельные ссылки)
 <details>
 
