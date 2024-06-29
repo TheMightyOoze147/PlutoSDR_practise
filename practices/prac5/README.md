@@ -23,6 +23,8 @@
 # Полученные графики
 <details>
   <img src="https://github.com/TheMightyOoze147/PlutoSDR_practise/blob/main/5.%20%D0%98%D0%B7%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D1%85%20%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%20%D0%94%D0%9F%D0%A4%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B2%20%20Python%5CSpyder/task1_thirdparty/%D0%94%D0%9F%D0%A4.jpg" title="ДПФ">
+  
+  ![Графики](task1_thirdparty/ДПФ.jpg)
 
 ДПФ
 
