@@ -63,21 +63,21 @@
 
   ![S](task2_thirdparty/S1.png)
 
-  ![S](task2_thirdparty/S2.jpg)
+  ![S](task2_thirdparty/S2.png)
 
-  ![S](task2_thirdparty/S3.jpg)
+  ![S](task2_thirdparty/S3.png)
 
-  ![S](task2_thirdparty/S4.jpg)
+  ![S](task2_thirdparty/S4.png)
 
-  ![S](task2_thirdparty/S5.jpg)
+  ![S](task2_thirdparty/S5.png)
 
-  ![S](task2_thirdparty/S6.jpg)
+  ![S](task2_thirdparty/S6.png)
 
-  ![S](task2_thirdparty/S7.jpg)
+  ![S](task2_thirdparty/S7.png)
 
-  ![S](task2_thirdparty/S8.jpg)
+  ![S](task2_thirdparty/S8.png)
 
-  ![S](task2_thirdparty/S9.jpg)
+  ![S](task2_thirdparty/S9.png)
 
-  ![S](task2_thirdparty/S10.jpg)
+  ![S](task2_thirdparty/S10.png)
 </details>
