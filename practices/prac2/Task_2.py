@@ -9,26 +9,12 @@ freq = 0.1 #Частота
 time = np.arange(0, 25, 0.25)  # создание массива от 0 до 10 с 10000
 y_sin = amplitude * np.sin(w*freq*time)  # создание массива значений по синусоидальному закону
 
-plt.plot(time, y_sin)  
-plt.title('Аналоговый')
-plt.xlabel('Время')
-plt.ylabel('Амплитуда')
+plt.plot(time, y_sin, label='Аналоговый')  
+plt.stem(time, y_sin, label='Дискретный')
+plt.step(time, y_sin, label='Квантованный')
+plt.legend()
+plt.title('Графики сигнала')
 plt.grid()
-plt.show()
-
-plt.stem(time, y_sin)
-plt.title('Дискретный')
-plt.xlabel('Время')
-plt.ylabel('Амплитуда')
-plt.grid()
-plt.show()
-
-plt.step(time, y_sin)
-plt.title('Квантованный')
-plt.xlabel('Время')
-plt.ylabel('Амплитуда')
-plt.grid()
-plt.show()
 
 fig = plt.figure()
 ax1 = fig.add_subplot(3, 1, 1)

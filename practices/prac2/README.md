@@ -20,3 +20,11 @@
 5. Подписать название осей.
 6. Объединить 3 графика в одной картинке (`fig`)
 7. Загрузить результат на Github
+
+<details>
+    <summary>Полученные графики</summary>
+
+    ![Графики](third_party/plotting1.png)
+    ![Графики](third_party/plotting2.png)
+
+</details>
