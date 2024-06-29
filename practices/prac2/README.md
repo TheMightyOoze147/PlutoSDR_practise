@@ -21,10 +21,8 @@
 6. Объединить 3 графика в одной картинке (`fig`)
 7. Загрузить результат на Github
 
-<details>
-    <summary>Полученные графики</summary>
-
-    ![Графики](third_party/plotting1.png)
-    ![Графики](third_party/plotting2.png)
-
-</details>
+## Полученные графики:
+### Графики одним figure
+![Графики](third_party/plotting1.png)
+### Графики с использованием figure, subplot
+![Графики](third_party/plotting2.png)
