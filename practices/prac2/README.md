@@ -23,6 +23,6 @@
 
 ## Полученные графики:
 ### Графики одним figure
-![Графики](third_party/plotting1.png)
+![Графики](../../third_party/plotting1.png)
 ### Графики с использованием figure, subplot
-![Графики](third_party/plotting2.png)
+![Графики](../../third_party/plotting2.png)
