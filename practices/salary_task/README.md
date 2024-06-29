@@ -70,7 +70,7 @@ t = np.arange(0, 1, 1/fs)
 signal_sum = np.cos(2 * np.pi * 5 * t) + np.cos(2 * np.pi * 20 * t)
 ```
 
-![s](pics/Figure%202023-11-08%20232944%20(3).png)
+![s](pics/Figure%202023-11-08%20234704.png)
 
 И фильтр
 
@@ -92,5 +92,4 @@ filtered_spectre = np.fft.fft(filtered_signal)
 freqs_filt = np.fft.fftfreq(len(filtered_spectre), 1/fs)
 ```
 
-![s](pics/Figure%202023-11-08%20234704.png)
-
+![s](pics/Figure%202023-11-08%20232944%20(3).png)
